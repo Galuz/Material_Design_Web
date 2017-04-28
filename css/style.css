@@ -1,0 +1,69 @@
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/background.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#headerImage div h1{
+	position: relative;
+	top: 124px;
+	color: white;
+}
+
+section#headerImage div h3{
+	position: relative;
+	top: 114px;
+	color: white;
+}
+
+.center-title { 
+	text-align: center
+}
+
+.arapeyFont{
+	font-family: 'Arapey', serif;
+	font-size: 600%;
+}
+
+.ContactFont{
+	font-family: 'Arapey', serif;
+	font-size: 142%;
+}
+
+p{
+	text-align: justify;
+}
+
+.shape{
+	width: 580px;
+	height: 419px;
+	border: solid;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+}
+
+section#mapid{
+	padding: 10px;
+}
+
+.back{
+	background-color: #444443;
+}
+footer.page-footer .footer-copyright{
+	background-color: #000;
+}
+
+footer.page-footer{
+	margin-top: 42px;
+}
